@@ -1,0 +1,43 @@
+# 이미지 파일 무시.
+*.jpg
+*.jpeg
+*.png
+
+# 압축파일 무시.
+*.zip
+
+# # 대용량 폴더 무시.
+# # coco
+Panoptic_Segmentation/data/coco/train2017/
+Panoptic_Segmentation/data/coco/val2017/
+
+# # coco/annotations
+Panoptic_Segmentation/data/coco/annotations/panoptic_train2017/
+Panoptic_Segmentation/data/coco/annotations/panoptic_val2017/
+
+# #firstset
+Panoptic_Segmentation/data/coco/firstset/train2017/
+Panoptic_Segmentation/data/coco/firstset/val2017/
+Panoptic_Segmentation/data/coco/firstset/annotations/panoptic_train2017/
+Panoptic_Segmentation/data/coco/firstset/annotations/panoptic_val2017/
+# #secondset
+Panoptic_Segmentation/data/coco/secondset/train2017/
+Panoptic_Segmentation/data/coco/secondset/val2017/
+Panoptic_Segmentation/data/coco/secondset/annotations/panoptic_train2017/
+Panoptic_Segmentation/data/coco/secondset/annotations/panoptic_val2017/
+
+
+# macOS가 자동으로 만드는 파일 무시.
+.DS_Store
+
+
+# 용량이 큰 json 파일 무시
+Panoptic_Segmentation/data/coco/annotations/panoptic_train2017.json
+Panoptic_Segmentation/data/coco/annotations/panoptic_val2017.json
+
+
+Panoptic_Segmentation/data/coco/firstset/annotations/panoptic_train2017.json
+Panoptic_Segmentation/data/coco/firstset/annotations/panoptic_val2017.json
+Panoptic_Segmentation/data/coco/secondset/annotations/panoptic_train2017.json
+Panoptic_Segmentation/data/coco/secondset/annotations/panoptic_val2017.json
+
